@@ -1,0 +1,16 @@
+assets/images/simunul-island-mosque.jpg — Photograph via https://en.wikipedia.org/wiki/Sheik_Karimol_Makhdum_Mosque — Open the linked image for its photographer and license. Source: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Sheikh_Karimul_Makhdum_Mosque_BIO_file_photo.jpg/1280px-Sheikh_Karimul_Makhdum_Mosque_BIO_file_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail
+assets/images/grand-mosque-cotabato-city.jpg — Photograph via https://en.wikipedia.org/wiki/Sultan_Haji_Hassanal_Bolkiah_Mosque — Open the linked image for its photographer and license. Source: https://thumb.wikimedia.org/wikipedia/en/thumb/5/50/Cotabato_Grand_Mosque_%28Kalanganan%2C_Cotabato_City%3B_08-15-2023%29.jpg/1280px-Cotabato_Grand_Mosque_%28Kalanganan%2C_Cotabato_City%3B_08-15-2023%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail
+assets/images/lake-lanao-marawi.jpg — Photograph via https://en.wikipedia.org/wiki/Lake_Lanao — Open the linked image for its photographer and license. Source: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Lake_Lanao_S2.jpg/1280px-Lake_Lanao_S2.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail
+assets/images/sitangkai-stilt-village.jpg — Photograph via https://en.wikipedia.org/wiki/Sitangkai — Open the linked image for its photographer and license. Source: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Sitangkai.jpg/1280px-Sitangkai.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail
+assets/images/bud-bongao-tawi-tawi.jpg — Photograph via https://en.wikipedia.org/wiki/Mount_Bongao — Open the linked image for its photographer and license. Source: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Bud_Bongao.jpg/1280px-Bud_Bongao.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail
+
+assets/images/pastil-mindanao.jpg — Photograph "Pastil Mindanao1.jpg" via https://commons.wikimedia.org/wiki/File:Pastil_Mindanao1.jpg — License: CC BY-SA 4.0 (see the Commons page for the author). Resized copy.
+
+Higher-resolution versions (replaced the 1280 px thumbnails). Licences as listed on each Wikimedia page:
+assets/images/simunul-island-mosque.jpg — https://commons.wikimedia.org/wiki/File:Sheikh_Karimul_Makhdum_Mosque_BIO_file_photo.jpg — Public domain (2400 px original)
+assets/images/grand-mosque-cotabato-city.jpg — https://en.wikipedia.org/wiki/File:Cotabato_Grand_Mosque_(Kalanganan,_Cotabato_City;_08-15-2023).jpg — CC BY-SA 4.0 (3552 px original)
+assets/images/bud-bongao-tawi-tawi.jpg — https://commons.wikimedia.org/wiki/File:Bud_Bongao.jpg — CC BY-SA 4.0 (3840 px)
+assets/images/sitangkai-stilt-village.jpg — https://commons.wikimedia.org/wiki/File:Sitangkai.jpg — CC BY-SA 4.0 (1440 px original, the largest available)
+assets/images/lake-lanao-marawi.jpg — https://commons.wikimedia.org/wiki/File:Lake_Lanao_S2.jpg — kept as is; the original on Wikimedia is only 1074 px wide
+
+Note: lake-lanao-marawi, simunul-island-mosque and sitangkai-stilt-village are now enhanced/replaced PNG versions supplied by the site owner (same sources as listed above).

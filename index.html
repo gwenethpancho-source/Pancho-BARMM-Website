@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- Student Name: Pancho, Gweneth C. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Gweneth C. Pancho">
+  <title>Home | Explore BARMM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/icon-culture.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body><a class="skip-link" href="#main">Skip to content</a>
+  <!-- Site header and navigation -->
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a class="site-brand" href="index.html"><span class="brand-mark" aria-hidden="true">✦</span> Explore BARMM</a>
+      <nav aria-label="Main navigation">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link is-current" href="index.html" aria-current="page">Home</a></li>
+          <li><a class="main-nav-link" href="destinations.html">Destinations</a></li>
+          <li><a class="main-nav-link" href="activities.html">Activities</a></li>
+          <li><a class="main-nav-link" href="history.html">History &amp; Culture</a></li>
+          <li><a class="main-nav-link nav-cta" href="plan-trip.html">Plan Your Trip</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="home-page">
+    <!-- Scroll journey: a portal in the middle opens into the next destination -->
+    <section class="journey" id="journey" aria-label="Featured destinations">
+      <span class="mark" id="j0"></span><span class="mark" id="j1"></span><span class="mark" id="j2"></span><span class="mark" id="j3"></span><span class="mark" id="j4"></span>
+      <div class="journey-stage">
+        <!-- Full-bleed scenes. The next one is shown through the portal. -->
+        <div class="scene" data-i="0"><img fetchpriority="high" src="assets/images/grand-mosque-cotabato-city.jpg" width="1600" height="1000" alt="Sultan Haji Hassanal Bolkiah Masjid in Cotabato City"></div>
+        <div class="scene" data-i="1"><img src="assets/images/sitangkai-stilt-village.png" width="1600" height="1000" alt="Stilt village of Sitangkai"></div>
+        <div class="scene" data-i="2"><img src="assets/images/simunul-island-mosque.png" width="1600" height="1000" alt="Sheikh Karimul Makhdum Mosque in Simunul"></div>
+        <div class="scene" data-i="3"><img src="assets/images/bud-bongao-tawi-tawi.jpg" width="1600" height="1000" alt="Bud Bongao mountain in Tawi-Tawi"></div>
+        <div class="scene" data-i="4"><img src="assets/images/lake-lanao-marawi.png" width="1600" height="1000" alt="Lake Lanao in Lanao del Sur"></div>        <div class="journey-shade" aria-hidden="true"></div>
+
+        <!-- Portal outlines, one per scene change -->
+        <div class="ring r1" aria-hidden="true"></div><div class="ring r2" aria-hidden="true"></div><div class="ring r3" aria-hidden="true"></div><div class="ring r4" aria-hidden="true"></div>
+
+        <!-- Intro copy (fades away as you scroll) -->
+        <div class="hero-text intro">
+          <p class="eyebrow">THE PHILIPPINES · A DIFFERENT PERSPECTIVE</p>
+          <h1 class="hero-title" aria-label="A place to slow down. A culture to remember."><span class="hw" aria-hidden="true"><span class="hw-in" style="--i:0">A</span></span> <span class="hw" aria-hidden="true"><span class="hw-in" style="--i:1">place</span></span> <span class="hw" aria-hidden="true"><span class="hw-in" style="--i:2">to</span></span> <span class="hw" aria-hidden="true"><span class="hw-in" style="--i:3">slow</span></span> <span class="hw" aria-hidden="true"><span class="hw-in" style="--i:4">down.</span></span><br><span class="hw" aria-hidden="true"><span class="hw-in" style="--i:5">A</span></span> <span class="hw" aria-hidden="true"><span class="hw-in" style="--i:6">culture</span></span> <span class="hw" aria-hidden="true"><span class="hw-in" style="--i:7">to</span></span> <em aria-hidden="true"><span class="hw" aria-hidden="true"><span class="hw-in" style="--i:8">remember.</span></span></em></h1>
+          <p class="hero-tagline">Meet the landscapes, flavors, and living traditions of the Bangsamoro. Your next story starts here.</p>
+          <div class="hero-actions"><a class="button" href="destinations.html">Explore destinations <span>↗</span></a><a class="text-link" href="plan-trip.html">Plan your trip →</a></div>
+        </div>
+
+        <!-- Destination index -->
+        <nav class="scene-index" aria-label="Featured destinations">
+          <ol>
+            <li><a href="#j0">Grand Mosque</a></li>
+            <li><a href="#j1">Sitangkai</a></li>
+            <li><a href="#j2">Simunul</a></li>
+            <li><a href="#j3">Bud Bongao</a></li>
+            <li><a href="#j4">Lake Lanao</a></li>
+          </ol>
+        </nav>
+
+        <!-- Giant titles -->
+        <div class="scene-titles" aria-hidden="true">
+          <div class="st"><span>Grand Mosque</span></div>
+          <div class="st"><span>Sitangkai</span></div>
+          <div class="st"><span>Simunul</span></div>
+          <div class="st"><span>Bud Bongao</span></div>
+          <div class="st"><span>Lake Lanao</span></div>
+        </div>
+
+        <!-- Details -->
+        <div class="scene-infos">
+          <div class="si"><p class="si-place">Cotabato City</p><p>Sultan Haji Hassanal Bolkiah Masjid, also called the Grand Mosque. Its golden dome and tall minarets stand out in the city skyline.</p></div>
+          <div class="si"><p class="si-place">Sitangkai, Tawi-Tawi</p><p>Called the &ldquo;Venice of the South&rdquo; because houses stand on stilts above the sea and boats link them.</p></div>
+          <div class="si"><p class="si-place">Simunul, Tawi-Tawi</p><p>Sheikh Karimul Makhdum Mosque, built in 1380, is considered the oldest mosque in the Philippines.</p></div>
+          <div class="si"><p class="si-place">Bongao, Tawi-Tawi</p><p>A mountain above Bongao town with a long trail. Wild monkeys live along the path, so keep your food covered.</p></div>
+          <div class="si"><p class="si-place">Marawi City &amp; Lanao del Sur</p><p>The largest lake in Mindanao and the center of Maranao life, with rich traditions in weaving, brasswork and okir carving.</p></div>
+        </div>
+        <p class="scroll-hint" aria-hidden="true">Scroll</p>
+      </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="page-section">
+      <div class="container">
+        <p class="eyebrow">WELCOME TO THE BANGSAMORO</p><h2 class="section-heading words" aria-label="Many cultures. One remarkable region."><span class="hw" aria-hidden="true"><span class="hw-in" style="--i:0">Many</span></span> <span class="hw" aria-hidden="true"><span class="hw-in" style="--i:1">cultures.</span></span><br><span class="hw" aria-hidden="true"><span class="hw-in" style="--i:2">One</span></span> <span class="hw" aria-hidden="true"><span class="hw-in" style="--i:3">remarkable</span></span> <span class="hw" aria-hidden="true"><span class="hw-in" style="--i:4">region.</span></span></h2>
+        <p class="intro-text"><strong>BARMM</strong> is the Bangsamoro Autonomous Region in Muslim Mindanao. It includes Basilan, Lanao del Sur, Maguindanao del Norte, Maguindanao del Sur, Tawi-Tawi, Cotabato City and the Special Geographic Area.</p>
+        <p class="intro-text">The region is home to Islamic heritage, large lakes, island communities and a strong tradition of weaving, carving and cooking. Use this website to find places to visit, things to do, local culture and a simple travel plan.</p>
+      </div>
+    </section>
+
+    <!-- Image gallery of tourist spots -->
+    <section class="page-section">
+      <div class="container">
+        <div class="section-top"><div><p class="eyebrow">PLACES THAT STAY WITH YOU</p><h2 class="section-heading">Find your kind of escape.</h2></div><a class="text-link" href="destinations.html">View all destinations ↗</a></div>
+        <ul class="gallery-grid">
+          <li class="gallery-item">
+            <a class="gcover" href="destinations.html#lake-lanao" aria-label="Lake Lanao, Marawi City and Lanao del Sur"></a>
+            <div class="gcard"><img loading="lazy" class="gallery-image" src="assets/images/lake-lanao-marawi.png" width="800" height="520" alt="View of Lake Lanao"><p class="gallery-caption"><strong>Lake Lanao</strong><br>Marawi City and Lanao del Sur</p></div>
+          </li>
+          <li class="gallery-item">
+            <a class="gcover" href="destinations.html#grand-mosque" aria-label="Sultan Haji Hassanal Bolkiah Masjid, Cotabato City"></a>
+            <div class="gcard"><img loading="lazy" class="gallery-image" src="assets/images/grand-mosque-cotabato-city.jpg" width="800" height="520" alt="View of Sultan Haji Hassanal Bolkiah Masjid"><p class="gallery-caption"><strong>Sultan Haji Hassanal Bolkiah Masjid</strong><br>Cotabato City</p></div>
+          </li>
+          <li class="gallery-item">
+            <a class="gcover" href="destinations.html#simunul" aria-label="Sheikh Karimul Makhdum Mosque, Simunul, Tawi-Tawi"></a>
+            <div class="gcard"><img loading="lazy" class="gallery-image" src="assets/images/simunul-island-mosque.png" width="800" height="520" alt="View of Sheikh Karimul Makhdum Mosque"><p class="gallery-caption"><strong>Sheikh Karimul Makhdum Mosque</strong><br>Simunul, Tawi-Tawi</p></div>
+          </li>
+          <li class="gallery-item">
+            <a class="gcover" href="destinations.html#sitangkai" aria-label="Sitangkai, Sitangkai, Tawi-Tawi"></a>
+            <div class="gcard"><img loading="lazy" class="gallery-image" src="assets/images/sitangkai-stilt-village.png" width="800" height="520" alt="View of Sitangkai"><p class="gallery-caption"><strong>Sitangkai</strong><br>Sitangkai, Tawi-Tawi</p></div>
+          </li>
+          <li class="gallery-item">
+            <a class="gcover" href="destinations.html#bud-bongao" aria-label="Bud Bongao, Bongao, Tawi-Tawi"></a>
+            <div class="gcard"><img loading="lazy" class="gallery-image" src="assets/images/bud-bongao-tawi-tawi.jpg" width="800" height="520" alt="View of Bud Bongao"><p class="gallery-caption"><strong>Bud Bongao</strong><br>Bongao, Tawi-Tawi</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Looping video feature -->
+    <section class="page-section container video-feature">
+      <div>
+        <p class="eyebrow">A MOMENT IN THE BANGSAMORO</p>
+        <h2 class="section-heading">Lakes, mosques and living heritage.</h2>
+        <p class="intro-text">Click the top photo to flip to the next one.</p>
+      </div>
+      <figure class="video-frame">
+        <input class="deck-r" type="radio" name="deck" id="deck1" aria-label="Show photo 1: Lake Lanao" checked><input class="deck-r" type="radio" name="deck" id="deck2" aria-label="Show photo 2: Sultan Haji Hassanal Bolkiah Masjid"><input class="deck-r" type="radio" name="deck" id="deck3" aria-label="Show photo 3: Sheikh Karimul Makhdum Mosque"><input class="deck-r" type="radio" name="deck" id="deck4" aria-label="Show photo 4: Sitangkai"><input class="deck-r" type="radio" name="deck" id="deck5" aria-label="Show photo 5: Bud Bongao">
+        <div class="slides">
+          <label class="slide s1" for="deck2"><img src="assets/images/lake-lanao-marawi.png" alt="Lake Lanao"></label>
+          <label class="slide s2" for="deck3"><img src="assets/images/grand-mosque-cotabato-city.jpg" alt="Sultan Haji Hassanal Bolkiah Masjid"></label>
+          <label class="slide s3" for="deck4"><img src="assets/images/simunul-island-mosque.png" alt="Sheikh Karimul Makhdum Mosque"></label>
+          <label class="slide s4" for="deck5"><img src="assets/images/sitangkai-stilt-village.png" alt="Sitangkai"></label>
+          <label class="slide s5" for="deck1"><img src="assets/images/bud-bongao-tawi-tawi.jpg" alt="Bud Bongao"></label>
+        </div>
+      </figure>
+    </section>
+
+    <!-- Travel invitation and frequently asked questions -->
+    <section class="invitation container"><p class="eyebrow">GO WITH CURIOSITY. TRAVEL WITH CARE.</p><h2>Less rushing.<br>More discovering.</h2><p>Start with three days in Cotabato City. Leave room for a conversation, a shared meal, and something unexpected.</p><a class="button" href="plan-trip.html">Build your three-day escape ↗</a></section>
+    <section class="page-section container faq"><p class="eyebrow">BEFORE YOU GO</p><h2 class="section-heading">A little local know-how.</h2><details><summary>Where should I start?</summary><p>Choose one area for a short visit. Our sample itinerary stays in Cotabato City so you can spend more time exploring and less time traveling.</p></details><details><summary>What should I wear when visiting a mosque?</summary><p>Wear modest clothing and follow the site's guidance on head coverings and footwear. Ask permission before entering or taking photographs.</p></details><details><summary>Can I book a tour through this website?</summary><p>This is a student tourism guide, not a booking service. Contact a local tourism office or accredited operator to arrange your visit.</p></details></section>
+  </main>
+
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-text"><strong>Explore BARMM</strong> &ndash; IntroComp Final Project by Gweneth C. Pancho</p>
+      <p class="footer-text">Email: <a href="mailto:gweneth.pancho@lsu.edu.ph">gweneth.pancho@lsu.edu.ph</a> | Phone: <a href="tel:+639317583616">0931 758 3616</a></p>
+    </div>
+  <div class="container credit"><p>A student tourism guide by Gweneth C. Pancho · IntroComp</p><a href="history.html#sources">Sources &amp; image credits ↗</a></div><div class="sakura" aria-hidden="true"><span style="left:44.7%;width:10.0px;height:8.0px;animation-duration:11.8s,3.1s;animation-delay:-13.8s,-2.0s;opacity:0.76;--drift:63px"></span><span style="left:28.2%;width:16.6px;height:13.3px;animation-duration:11.0s,5.1s;animation-delay:-2.2s,-1.9s;opacity:0.79;--drift:88px"></span><span style="left:8.5%;width:15.4px;height:12.3px;animation-duration:11.0s,5.2s;animation-delay:-9.5s,-2.8s;opacity:0.74;--drift:46px"></span><span style="left:79.6%;width:14.3px;height:11.4px;animation-duration:9.1s,3.6s;animation-delay:-9.2s,-3.6s;opacity:0.56;--drift:57px"></span><span style="left:52.2%;width:22.4px;height:17.9px;animation-duration:9.9s,4.8s;animation-delay:-15.3s,-1.6s;opacity:0.91;--drift:31px"></span><span style="left:80.8%;width:20.0px;height:16.0px;animation-duration:17.5s,3.9s;animation-delay:-2.7s,-4.0s;opacity:0.93;--drift:81px"></span><span style="left:80.1%;width:24.0px;height:19.2px;animation-duration:12.9s,3.8s;animation-delay:-9.8s,-0.1s;opacity:0.93;--drift:88px"></span><span style="left:87.4%;width:14.9px;height:11.9px;animation-duration:9.0s,5.0s;animation-delay:-15.2s,-2.7s;opacity:0.82;--drift:66px"></span><span style="left:43.4%;width:21.9px;height:17.6px;animation-duration:17.3s,6.0s;animation-delay:-6.8s,-4.1s;opacity:0.75;--drift:46px"></span><span style="left:5.2%;width:10.7px;height:8.5px;animation-duration:16.4s,3.3s;animation-delay:-5.6s,-2.8s;opacity:0.70;--drift:63px"></span><span style="left:37.9%;width:11.5px;height:9.2px;animation-duration:10.6s,4.7s;animation-delay:-8.8s,-4.6s;opacity:0.59;--drift:99px"></span><span style="left:77.4%;width:23.9px;height:19.1px;animation-duration:14.1s,4.1s;animation-delay:-13.8s,-3.2s;opacity:0.75;--drift:51px"></span><span style="left:25.7%;width:17.5px;height:14.0px;animation-duration:17.7s,4.7s;animation-delay:-14.6s,-0.7s;opacity:0.61;--drift:97px"></span><span style="left:28.8%;width:19.7px;height:15.7px;animation-duration:16.4s,4.1s;animation-delay:-14.1s,-2.4s;opacity:0.75;--drift:46px"></span><span style="left:79.8%;width:11.4px;height:9.1px;animation-duration:16.9s,3.8s;animation-delay:-12.1s,-1.7s;opacity:0.89;--drift:60px"></span><span style="left:2.0%;width:10.0px;height:8.0px;animation-duration:9.3s,4.7s;animation-delay:-4.7s,-4.0s;opacity:0.68;--drift:75px"></span><span style="left:49.3%;width:23.9px;height:19.1px;animation-duration:15.8s,3.5s;animation-delay:-10.5s,-2.5s;opacity:0.65;--drift:49px"></span><span style="left:62.3%;width:17.0px;height:13.6px;animation-duration:13.1s,3.9s;animation-delay:-7.9s,-2.5s;opacity:0.60;--drift:74px"></span><span style="left:49.6%;width:21.4px;height:17.1px;animation-duration:14.0s,3.6s;animation-delay:-12.4s,-1.9s;opacity:0.59;--drift:70px"></span><span style="left:19.7%;width:15.4px;height:12.3px;animation-duration:13.6s,5.8s;animation-delay:-6.3s,-0.8s;opacity:0.89;--drift:88px"></span><span style="left:24.1%;width:20.2px;height:16.1px;animation-duration:11.5s,3.7s;animation-delay:-5.0s,-4.6s;opacity:0.83;--drift:69px"></span><span style="left:51.3%;width:15.9px;height:12.7px;animation-duration:13.0s,5.2s;animation-delay:-0.2s,-3.9s;opacity:0.86;--drift:31px"></span></div></footer>
+</body>
+</html>
